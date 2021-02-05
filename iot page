@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>education</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                background: #0e0e0e;
+            }
+            h1{
+                font-family: 'Signika', sans-serif;
+                color:white;
+                font-size: 85px;
+                font-weight:bold;
+                margin-left:40%;
+                margin-top: 5%;
+               
+            }
+            .box{
+                font-size: 55px;
+                font-family: 'Signika', sans-serif;
+                color:rgb(175, 174, 170);
+                line-height: 100px;
+                margin-left: 16%;
+                margin-top: 30%;
+               
+            }
+            .arrow{
+	            width: 0;
+	            height: 0;
+	            border-top: 30px solid transparent;
+	            border-right: 50px solid white;
+	            border-bottom: 30px solid transparent;
+                position: absolute;
+                margin-top:1.5%;
+                margin-left:3%;
+                
+               
+            }
+            .button {
+                border: none;
+                color: rgb(247, 216, 237);
+                padding: 20px 140px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 40px;
+                font-weight: bold;
+                margin-left:20%;
+                margin-top:10%;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                font-family:sans-serif;
+                border-radius: 45px;
+            }
+
+            .button1 {
+                background-color: rgb(247, 216, 237); 
+                color: black; 
+                border: 2px solid #be003e;
+            }
+
+            .button1:hover {
+                background-color: #be003e;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="arrow">
+            <i class="fa fa-caret-left fa-5x" aria-hidden="true"></i>
+        </div>
+        <h1>IOT</h1><hr>
+        <div class="box">
+            Duration : Maximum 7 days<br>
+            Registration fee : Rs 500/-<br>
+            Reward Points : 300<br>
+            Get an E-Certificate
+        </div>
+        <button class="button button1"><b>REGISTER</b></button>
+    </body>
+</html>
